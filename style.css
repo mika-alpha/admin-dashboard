@@ -33,6 +33,8 @@
 .content{
     grid-column: 2;
     grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: 6fr 2fr;
 }
 
 .logo{
