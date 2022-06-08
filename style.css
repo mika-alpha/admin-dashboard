@@ -75,7 +75,7 @@ body{
 
 .searchbar,
 .notifications,
-.info,
+.user-info,
 .buttons{
     display: flex;
     align-items: center;
@@ -97,13 +97,13 @@ body{
     justify-content: center;
 }
 
-.info .pfp{
+.user-info .pfp{
     width: 100px;
     height: 100px;
     border-radius: 50px;
 }
 
-.info{
+.user-info{
     gap: 15px;
 }
 
@@ -116,4 +116,41 @@ body{
     width: 100px;
     height: 40px;
     border-radius: 20px;
+}
+
+.projects-container{
+    display: grid;
+    grid-template-rows: 30px 1fr;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    gap: 20px;
+    padding: 50px;
+
+}
+
+.card{
+    display: flex;
+    height: 250px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+}
+
+.color{
+    background-color: tomato;
+    width: 30px;
 }
