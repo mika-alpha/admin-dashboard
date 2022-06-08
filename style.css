@@ -20,7 +20,7 @@
     gap: 70px;
     padding-left: 20px;
     padding-top: 10px;
-    background-color: #0369a1;
+    background-color: #14b8a6;
     color: #fafafa;
 }
 
@@ -30,6 +30,9 @@
     display: grid;
     grid-template-columns: 70% 30%;
     grid-template-rows: 30% 70%;
+    padding: 10px;
+    background-color: #f0fdfa;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .content{
@@ -37,6 +40,8 @@
     grid-row: 2 / 3;
     display: grid;
     grid-template-columns: 6fr 2fr;
+    padding: 10px;
+    margin-top: 20px;
 }
 
 .logo{
@@ -92,13 +97,15 @@
 
 .searchbar input[type="text"]{
     width: 90%;
+    border: none;
+    background-color: #e2e8f0;
     border-radius: 20px;
     height: 30px;
 }
 
 .notifications{
     gap: 20px;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .user-info .pfp{
@@ -109,6 +116,13 @@
 
 .user-info{
     gap: 15px;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.user-info span{
+    font-size: 15px;
 }
 
 .buttons{
@@ -119,7 +133,16 @@
 .buttons button{
     width: 100px;
     height: 40px;
+    border: none;
     border-radius: 20px;
+    background-color: #14b8a6;
+    color: #fafafa;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.buttons button:active{
+    background-color: #115e59;
 }
 
 .projects-container{
@@ -182,3 +205,9 @@
     display: flex;
     gap: 10px;
 }
+
+.notifications p{
+    font-weight: 900;
+    font-size: 20px;
+}
+
