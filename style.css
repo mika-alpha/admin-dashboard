@@ -4,12 +4,12 @@
     margin: 0;
     border: 1px dashed red;
 }
-
+body{
+    min-height: 100vh;
+}
 .main{
     display: grid;
     grid-template-columns: 300px 1fr;
-    grid-template-rows: 1fr 5fr;
-    height: 100vh;
 }
 
 .sidebar{
