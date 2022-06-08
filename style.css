@@ -31,7 +31,7 @@
     grid-template-columns: 70% 30%;
     grid-template-rows: 30% 70%;
     padding: 10px;
-    background-color: #f0fdfa;
+    background-color: #f7fffd;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -175,6 +175,7 @@
 .small-card{
     background-color: #fafafa;
     border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .info{
@@ -182,7 +183,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 20px;
-    gap: 10px;
+    gap: 20px;
 }
 
 .info h4{
@@ -218,8 +219,12 @@
 }
 
 .small-card{
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
     width: 300px;
+    margin-top: 10px;
 }
 
 .trend{
@@ -232,3 +237,6 @@
     font-size: 20px;
 }
 
+.content h3{
+    font-size: 20px;
+}
